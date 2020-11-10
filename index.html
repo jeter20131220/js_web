@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div id="slider">
+    <div id="slider" data-slider-duration="2000">
 
         <div class="slider-item slider-active">
             <img class="img" src="./img/1.jpg" alt="">
@@ -26,8 +26,14 @@
             <h1>PORSCHE</h1>
         </div>
 
-        <div id="slider-prev"></div>
-        <div id="slider-next"></div>
+        <div id="slider-prev"><img src="./img/left1.png" alt=""></div>
+        <div id="slider-next"><img src="./img/right.png" alt=""></div>
+
+        <div id="slider-button">
+            <div class="slider-buttons slider-button-active" data-slider-item="1"></div>
+            <div class="slider-buttons" data-slider-item="2"></div>
+            <div class="slider-buttons" data-slider-item="3"></div>
+        </div>
 
     </div>
 
