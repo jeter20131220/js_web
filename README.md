@@ -1,9 +1,16 @@
 # js_web
 js實作應用
 
-<!-- data-slider-duration="2000"  自動撥放時間-->
-<!-- 輪播圖項目：根據需求複製貼上 active 只有一組 -->
-<div id="slider" data-slider-duration="2000">
+# -slider-duration="2000"  自動撥放時間
+# 輪播圖項目：根據需求複製貼上 active 只有一組
+
+# CDN 
+
+    <link rel="stylesheet" href="https://jeter20131220.github.io/js_web/style.scss">
+    <script src="https://jeter20131220.github.io/js_web/goto.js"></script>
+
+# 架構
+    <div id="slider" data-slider-duration="2000">
 
         <div class="slider-item slider-active">
             <img class="img" src="./img/1.jpg" alt="">
